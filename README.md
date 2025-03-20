@@ -1,5 +1,12 @@
 # Piazza
 
+**Instructions for Running**
+1. Register as a user using a name, email, and password - make sure that the name as password are long enough
+2. Log in with email and password
+      - this will give you the authentication key to access all the post functions except GET ALL which is publicly available
+3. You can make a post, look at all the posts created, search one up by specific id, modify YOUR post, or delete YOUR post
+
+   
 **Endpoints:**
 
 *Register*
@@ -38,11 +45,9 @@
 
 3. Success
 
-*GET ALL*
-1. Not logged in
-   <img width="994" alt="Screen Shot 2025-03-20 at 7 19 04 PM" src="https://github.com/user-attachments/assets/f5c4d195-4174-4369-bc21-02e353af7a34" />
+*GET ALL* - publicly available
 
-3. Success
+1. Success
 <img width="994" alt="Screen Shot 2025-03-20 at 7 19 43 PM" src="https://github.com/user-attachments/assets/45b6ff96-acd7-47a7-b71d-cb67a635ed03" />
 
 *GET SPECIFIC POST*
